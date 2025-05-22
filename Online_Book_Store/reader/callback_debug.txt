@@ -1,0 +1,129 @@
+2025-04-08 15:29:28
+
+
+2025-04-08 16:01:44
+{"Body":{"stkCallback":{"MerchantRequestID":"5e83-4814-8d0d-dff370f902dc16947","CheckoutRequestID":"ws_CO_08042025170300903759108296","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1.00},{"Name":"MpesaReceiptNumber","Value":"TD82X8RPZY"},{"Name":"TransactionDate","Value":20250408170137},{"Name":"PhoneNumber","Value":254759108296}]}}}}
+
+2025-04-08 16:11:38
+{"Body":{"stkCallback":{"MerchantRequestID":"bbcd-4a89-bd1a-6ecdc639893b3986980","CheckoutRequestID":"ws_CO_08042025171255365759108296","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1.00},{"Name":"MpesaReceiptNumber","Value":"TD88XAKMFS"},{"Name":"TransactionDate","Value":20250408171129},{"Name":"PhoneNumber","Value":254759108296}]}}}}
+
+2025-04-29 14:58:58
+Raw Data:
+
+
+2025-04-29 15:00:53
+Raw Data:
+{"Body":{"stkCallback":{"MerchantRequestID":"74cc-45b4-9c87-cf63848fd86530035","CheckoutRequestID":"ws_CO_29042025160237345759108296","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1.00},{"Name":"MpesaReceiptNumber","Value":"TDT6OVW4OG"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20250429160053},{"Name":"PhoneNumber","Value":254759108296}]}}}}
+
+2025-04-29 15:00:53
+Callback Data:
+stdClass Object
+(
+    [MerchantRequestID] => 74cc-45b4-9c87-cf63848fd86530035
+    [CheckoutRequestID] => ws_CO_29042025160237345759108296
+    [ResultCode] => 0
+    [ResultDesc] => The service request is processed successfully.
+    [CallbackMetadata] => stdClass Object
+        (
+            [Item] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [Name] => Amount
+                            [Value] => 1
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [Name] => MpesaReceiptNumber
+                            [Value] => TDT6OVW4OG
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [Name] => Balance
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [Name] => TransactionDate
+                            [Value] => 20250429160053
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [Name] => PhoneNumber
+                            [Value] => 254759108296
+                        )
+
+                )
+
+        )
+
+)
+
+
+2025-04-29 15:00:53
+Extracted Values:
+Amount: 1
+MpesaReceiptNumber: TDT6OVW4OG
+PhoneNumber: 254759108296
+
+2025-04-29 15:04:20
+Raw Data:
+{"Body":{"stkCallback":{"MerchantRequestID":"bbcb-47cb-be4b-d810b800e1c386562","CheckoutRequestID":"ws_CO_29042025160604723759108296","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1.00},{"Name":"MpesaReceiptNumber","Value":"TDT8OWFJZ8"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20250429160420},{"Name":"PhoneNumber","Value":254759108296}]}}}}
+
+2025-04-29 15:04:20
+Callback Data:
+stdClass Object
+(
+    [MerchantRequestID] => bbcb-47cb-be4b-d810b800e1c386562
+    [CheckoutRequestID] => ws_CO_29042025160604723759108296
+    [ResultCode] => 0
+    [ResultDesc] => The service request is processed successfully.
+    [CallbackMetadata] => stdClass Object
+        (
+            [Item] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [Name] => Amount
+                            [Value] => 1
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [Name] => MpesaReceiptNumber
+                            [Value] => TDT8OWFJZ8
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [Name] => Balance
+                        )
+
+                    [3] => stdClass Object
+                        (
+                            [Name] => TransactionDate
+                            [Value] => 20250429160420
+                        )
+
+                    [4] => stdClass Object
+                        (
+                            [Name] => PhoneNumber
+                            [Value] => 254759108296
+                        )
+
+                )
+
+        )
+
+)
+
+
+2025-04-29 15:04:20
+Extracted Values:
+Amount: 1
+MpesaReceiptNumber: TDT8OWFJZ8
+PhoneNumber: 254759108296
+
